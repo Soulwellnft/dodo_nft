@@ -172,7 +172,6 @@ export default function Home() {
                 <h6>{timeLeftToMint.public === "LIVE" ? "LIVE" : timeLeftToMint.public.days + " days : " + timeLeftToMint.public.hours + " hours : " + timeLeftToMint.public.minutes + " minutes : " + timeLeftToMint.public.seconds + " seconds"}</h6>
               </div>
               <div className="d-flex flex-column align-items-center my-3">
-                <h3>Twitter:</h3>
                 <h6><a href='https://twitter.com/SolCroak' target="_blank">Launchpad Services by Aptos Croak</a> </h6>
               </div>
             </>}
