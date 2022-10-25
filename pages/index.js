@@ -152,7 +152,7 @@ export default function Home() {
           <div className={styles.topcorner}>
             <ConnectWalletButton connectButton={!wallet.connected} className="d-flex" />
           </div>
-          <img src="https://cdn.discordapp.com/attachments/1034442838966026261/1034487062910468217/unknown.png" style={{ width: "880px", height:"480px" }} />
+          <img src="https://gateway.pinata.cloud/ipfs/QmXA15EJwSsKpHKYTuxWFyTRr1iaJnoMFUzFbeaFhj5sGi" style={{ width: "880px", height:"480px" }} />
           <div id="collection-info" className="d-flex flex-column align-items-center text-white" style={{width: "80%"}}>
             {isFetchignCmData ? <Spinner animation="border" role="status" className="mt-5"><span className="visually-hidden">Loading...</span></Spinner> : 
             <>
