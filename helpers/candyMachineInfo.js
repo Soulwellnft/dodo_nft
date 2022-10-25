@@ -1,6 +1,6 @@
-export const candyMachineAddress = "0xa4e34c62b207c229105eb78384f3b370fc10b4e4d7b8a42db4fcf6bd842b62d7";
-export const collectionName = "TestCollection32323332dodo"; // Case sensitive!
-export const collectionCoverUrl = "https://cloudflare-ipfs.com/ipfs/QmeCuKGLvAGrBAPGdaRh2hkTjXsXuk8VEUHNoYRD4cJG51";
+export const candyMachineAddress = "0xb0c25580975b1ba425a95c309e0a44b912cfd32331c1ce451959e88edf357850";
+export const collectionName = "Aptos Croak"; // Case sensitive!
+export const collectionCoverUrl = "https://cdn.discordapp.com/attachments/1034442838966026261/1034487062910468217/unknown.png";
 export const mode = "mainnet"; // "dev" or "test" or "mainnet"
 
 export let NODE_URL;
