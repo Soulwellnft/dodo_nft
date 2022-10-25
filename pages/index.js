@@ -146,13 +146,13 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>
-            {collectionName} Mint
-          </h1>
+          {/* <h1 className={styles.title}>
+            {collectionName} Mint meme
+          </h1> */}
           <div className={styles.topcorner}>
             <ConnectWalletButton connectButton={!wallet.connected} className="d-flex" />
           </div>
-          <img src={collectionCoverUrl} style={{ width: "480px", height:"480px" }} />
+          <img src="https://cdn.discordapp.com/attachments/1034442838966026261/1034487062910468217/unknown.png" style={{ width: "880px", height:"480px" }} />
           <div id="collection-info" className="d-flex flex-column align-items-center text-white" style={{width: "80%"}}>
             {isFetchignCmData ? <Spinner animation="border" role="status" className="mt-5"><span className="visually-hidden">Loading...</span></Spinner> : 
             <>
@@ -170,6 +170,10 @@ export default function Home() {
               <div className="d-flex flex-column align-items-center my-3">
                 <h3 style={{textDecoration: "underline"}}>Public In:</h3>
                 <h6>{timeLeftToMint.public === "LIVE" ? "LIVE" : timeLeftToMint.public.days + " days : " + timeLeftToMint.public.hours + " hours : " + timeLeftToMint.public.minutes + " minutes : " + timeLeftToMint.public.seconds + " seconds"}</h6>
+              </div>
+              <div className="d-flex flex-column align-items-center my-3">
+                <h3>Twitter:</h3>
+                <h6><a href='https://twitter.com/SolCroak' target="_blank">Launchpad Services by Aptos Croak</a> </h6>
               </div>
             </>}
           </div>
